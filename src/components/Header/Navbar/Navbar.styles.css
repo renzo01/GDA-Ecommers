@@ -1,0 +1,30 @@
+.navbar {
+  background-color: #fbf016;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.navbar-content {
+  margin: auto;
+  width: 50%;
+  display: flex;
+}
+.navbar-content img {
+  width: 64px;
+  margin-right: 10px;
+}
+.navbar-content ul {
+  list-style-type: none;
+  display: flex;
+  margin-left: 50%;
+}
+.navbar-content ul li {
+  margin-right: 5px;
+}
+.navbar-content ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar-content ul li a:hover {
+  text-decoration: underline;
+}
