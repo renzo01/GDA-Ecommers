@@ -4,9 +4,9 @@
   padding-bottom: 1px;
 }
 .navbar-content {
-  margin: auto;
-  width: 70%;
   display: flex;
+  margin: auto;
+  width: 40%;
 }
 .navbar-content img {
   width: 64px;

@@ -1,0 +1,14 @@
+.footer {
+  background-color: black;
+  color: white;
+  display: flex;
+}
+.footer p {
+  margin: auto;
+}
+.footer img {
+  width: 128px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}

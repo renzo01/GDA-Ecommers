@@ -11,10 +11,10 @@ const Navbar = () => {
         <div className='navbar-options'>
           <ul>
             <li>
-              <a href>Productos</a>
+              <a>Productos</a>
             </li>
             <li>
-              <a href>Contactos</a>
+              <a>Contactos</a>
             </li>
             <li>
               <Button title='Ingresar' type='button-sing-in' />

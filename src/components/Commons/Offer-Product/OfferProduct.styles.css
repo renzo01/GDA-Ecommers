@@ -1,0 +1,24 @@
+.offer-product {
+  border: solid 1px;
+  height: 130px;
+  width: 145px;
+  z-index: 1;
+  position: relative;
+}
+.img-prod {
+  width: 128px;
+}
+.offer-container {
+  position: relative;
+  border: solid 1px;
+  height: 30px;
+  width: 100px;
+  float: right;
+  color: white;
+  margin-top: -2rem;
+  z-index: 2;
+  background-color: #ff0100;
+}
+.offer-container p {
+  margin: auto;
+}
