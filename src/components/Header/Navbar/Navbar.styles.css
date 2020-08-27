@@ -30,9 +30,12 @@
 .navbar-content ul li a:hover {
   text-decoration: underline;
 }
-/*@media (max-width: 1366px) {
-  .navbar-content ul {
-    margin-left: 14%;
-    margin-right: -50px;
+@media (max-width: 1366px) {
+  .navbar-content {
+    margin-left: 40px;
+    width: 100%;
   }
-}*/
+  .navbar-options {
+    margin-left: 50%;
+  }
+}

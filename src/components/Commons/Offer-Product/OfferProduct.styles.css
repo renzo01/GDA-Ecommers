@@ -21,4 +21,7 @@
 }
 .offer-container p {
   margin: auto;
+  font-weight: bold;
+  padding-top: 5px;
+  padding-left: 25px;
 }
