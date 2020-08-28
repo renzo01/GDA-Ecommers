@@ -1,4 +1,4 @@
-.carrousel-offer-products {
+.carrousel {
   display: flex;
   margin: auto;
   width: 95%;
@@ -7,10 +7,4 @@
 .offer-products-container {
   margin: 0;
   display: flex;
-}
-.arrows {
-  width: 64px;
-}
-.arrows:active {
-  opacity: 0.6;
 }

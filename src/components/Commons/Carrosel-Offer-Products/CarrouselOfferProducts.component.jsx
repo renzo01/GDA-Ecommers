@@ -6,32 +6,35 @@ import "./CarrouselOfferProducts.styles.css";
 const CarrouselOfferProducts = () => {
   return (
     <div className='carrousel-offer-products'>
-      <Carrousel itemsToShow={4}>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-        <item>
-          <OfferProduct image={Prod1} />
-        </item>
-      </Carrousel>
+      <h4 className='offers-title'>OFFERTAS</h4>
+      <div className='carrousel'>
+        <Carrousel itemsToShow={4}>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+          <item>
+            <OfferProduct image={Prod1} />
+          </item>
+        </Carrousel>
+      </div>
     </div>
   );
 };
