@@ -1,4 +1,13 @@
+.show-products {
+  width: 90%;
+  margin: auto;
+}
+
 .show-products-title {
   color: gray;
-  margin-left: 20px;
+  margin-left: -2.5rem;
+}
+.show-products-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
