@@ -4,6 +4,7 @@
   width: 145px;
   z-index: 1;
   position: relative;
+  cursor: pointer;
 }
 .img-prod {
   width: 128px;

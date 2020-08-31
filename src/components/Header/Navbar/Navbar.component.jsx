@@ -2,6 +2,7 @@ import React from "react";
 import "./Navbar.styles.css";
 import gdaIcon from "../../../assets/gda-icon.png";
 import Button from "../../Commons/Button/Button.component";
+import { Link } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className='navbar'>
@@ -17,7 +18,9 @@ const Navbar = () => {
               <a>Contactos</a>
             </li>
             <li>
-              <Button title='Ingresar' type='button-sing-in' />
+              <Link to='/login'>
+                <Button title='Ingresar' type='button-sing-in' />
+              </Link>
             </li>
             <li>
               <Button title='Registrar' type='button-sing-up' />

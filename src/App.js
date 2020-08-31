@@ -1,14 +1,16 @@
 import React from "react";
-import Navbar from "./components/Header/Navbar/Navbar.component";
-import Footer from "./components/Commons/Footer/Footer.component";
+
 import MainPage from "./components/Body/MainPage/MainPage.component";
+import { Route, Switch } from "react-router-dom";
+import Login from "./components/Body/Login/Login.component";
 
 function App() {
   return (
     <div>
-      <Navbar />
-      <MainPage />
-      <Footer />
+      <Switch>
+        <Route exact path='/login' component={Login} />
+        <Route exact path='/' component={MainPage} />
+      </Switch>
     </div>
   );
 }
