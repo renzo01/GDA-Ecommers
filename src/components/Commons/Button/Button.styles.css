@@ -29,14 +29,16 @@
   cursor: pointer;
 }
 .button-login {
-  background-color: blue;
   width: 10rem;
-  border-radius: 10%;
+  border-radius: 25px;
   text-align: center;
   padding-top: 5px;
   padding-bottom: 5px;
-  color: white;
+  color: rgb(0, 110, 255);
+  border: solid 1px rgb(0, 110, 255);
 }
 .button-login:hover {
   cursor: pointer;
+  background-color: rgb(0, 110, 255);
+  color: white;
 }

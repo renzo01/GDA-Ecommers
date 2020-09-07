@@ -8,7 +8,7 @@ const CarrouselOfferProducts = () => {
     <div className='carrousel-offer-products'>
       <h4 className='offers-title'>OFFERTAS</h4>
       <div className='carrousel'>
-        <Carrousel itemsToShow={4}>
+        <Carrousel itemsToShow={6}>
           <item>
             <OfferProduct image={Prod1} />
           </item>

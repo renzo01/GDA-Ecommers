@@ -6,3 +6,10 @@
   margin-left: 20px;
   margin-top: 20px;
 }
+
+.login-form {
+  border: solid 1px;
+  width: 30rem;
+  padding: 20px;
+  margin: auto;
+}
